@@ -4,9 +4,9 @@ plugin-interceptor
 Plugin that defines a pre-run hook that can record and mock http/s requests and responses during command execution based on an environment variable.  Recorded requests are written to files based on the command name and topic.  Commands can then use the recorded fixtures rather than making actual network calls.  All `setTimeout` calls can also be mocked so as to return on next tick, which is useful when using mocked responses.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/plugin-interceptor.svg)](https://npmjs.org/package/plugin-interceptor)
-[![Downloads/week](https://img.shields.io/npm/dw/plugin-interceptor.svg)](https://npmjs.org/package/plugin-interceptor)
-[![License](https://img.shields.io/npm/l/plugin-interceptor.svg)](https://github.com/oclif/plugin-interceptor/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/@oclif/plugin-interceptor.svg)](https://npmjs.org/package/@oclif/plugin-interceptor)
+[![Downloads/week](https://img.shields.io/npm/dw/@oclif/plugin-interceptor.svg)](https://npmjs.org/package/@oclif/plugin-interceptor)
+[![License](https://img.shields.io/npm/l/@oclif/plugin-interceptor.svg)](https://github.com/oclif/plugin-interceptor/blob/master/package.json)
 
 # Usage
 This plugin does nothing until enabled with the `INTERCEPTOR_MODE` environment variable.
