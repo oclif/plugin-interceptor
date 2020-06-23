@@ -19,9 +19,9 @@
     "@salesforce/ts-sinon": "1.1.1",
     "@types/chai": "^4",
     "@types/debug": "0.0.30",
+    "@types/fs-extra": "5.0.2",
     "@types/mocha": "^5",
     "@types/node": "^10",
-    "@types/fs-extra": "5.0.2",
     "@types/sinon": "4.3.1",
     "chai": "^4",
     "eslint": "^5.13",
@@ -31,7 +31,7 @@
     "mocha": "^5",
     "nyc": "^14",
     "ts-node": "^8",
-    "typescript": "^3.3"
+    "typescript": "3.8.3"
   },
   "engines": {
     "node": ">=8.0.0"
