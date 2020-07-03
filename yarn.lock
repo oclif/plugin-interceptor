@@ -222,12 +222,12 @@
   dependencies:
     fancy-test "^1.4.3"
 
-"@salesforce/kit@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-1.2.1.tgz#123f0edad6a934848db054f51d6524a1e8419043"
-  integrity sha512-ytpDL5TO4QAPcMl1flXXADMeBzARtoOZekWTMdL2O8PVdJo5Wbo9TNpJk0u6SN7qcxZvdbb6RAJpprp4qN2TZw==
+"@salesforce/kit@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-1.2.3.tgz#e31c10b22e47bf2125390b4bd62d6c02a39bf9a9"
+  integrity sha512-Xr82W6Vk250VzzeGOjmTN7H0v8+UwadUe8hcwICMSdRjM6O4ccUgINHkmYkt6MOI83mZqMAZxPxu5QhtaunBEw==
   dependencies:
-    "@salesforce/ts-types" "^1.2.1"
+    "@salesforce/ts-types" "^1.3.0"
     tslib "^1.10.0"
 
 "@salesforce/ts-sinon@1.1.1":
@@ -239,10 +239,10 @@
     sinon "5.1.1"
     tslib "^1.10.0"
 
-"@salesforce/ts-types@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@salesforce/ts-types/-/ts-types-1.2.2.tgz#2e6dc771fa42a2cfc1a2e6b13d2f789add0cdf7c"
-  integrity sha512-inTkNP5jwJTbKqmBv6Cku/ezU6+ErYbUH4YorDfgZ/wDCsdLc9UyPGKGMO8aZ78vvyUTYWEiDxWlMqb1QXEfEw==
+"@salesforce/ts-types@^1.2.1", "@salesforce/ts-types@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@salesforce/ts-types/-/ts-types-1.3.0.tgz#9568b2eb364022c4d5656cfe44f5a134a5a3d873"
+  integrity sha512-ZJiDhvBnJO6mqkPsVDxfmrZAYmI27I/6bcRSbyzvtREzFux1lit3rhgcKyDUh+/9mrphJNFzRUiuWI4p3phhXA==
   dependencies:
     tslib "^1.10.0"
 
