@@ -22,7 +22,7 @@
     "@types/mocha": "^8",
     "@types/fs-extra": "9.0.6",
     "@types/node": "^14",
-    "@types/sinon": "9.0.9",
+    "@types/sinon": "9.0.10",
     "chai": "^4",
     "eslint": "^7.15",
     "eslint-config-oclif": "^3.1",
