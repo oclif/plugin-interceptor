@@ -90,6 +90,8 @@ const hook: Hook<'prerun'> = async function (options) {
     if (env.getBoolean('INTERCEPTOR_DISABLE_TIMEOUTS', true)) {
       debug('Overriding global.setTimeout to execute the callback on next tick')
       const originalSetTimeout = global.setTimeout
+      // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+      // @ts-ignore
       global.setTimeout = cb => originalSetTimeout(cb, 0)
     }
 
