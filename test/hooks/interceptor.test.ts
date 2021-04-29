@@ -55,6 +55,7 @@ describe('interceptor hook', () => {
     nockDisableNetConnectSpy = sandbox.spy(nock, 'disableNetConnect')
     nockLoadDefsStub = sandbox.stub(nock, 'loadDefs').returns([{
       scope: testScope,
+      path: '',
     }])
     nockDef = {}
     nockDefineStub = sandbox.stub(nock, 'define').returns([nockDef])
