@@ -39,9 +39,7 @@
   },
   "files": [
     "/lib",
-    "/npm-shrinkwrap.json",
-    "/oclif.manifest.json",
-    "/yarn.lock"
+    "/oclif.manifest.json"
   ],
   "homepage": "https://github.com/oclif/plugin-interceptor",
   "keywords": [
