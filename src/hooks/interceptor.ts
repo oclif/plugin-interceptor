@@ -1,4 +1,4 @@
-import {Hook, Hooks} from '@oclif/config'
+import {Hook, Interfaces} from '@oclif/core'
 import {env} from '@salesforce/kit'
 import * as path from 'path'
 import * as os from 'os'
@@ -12,7 +12,7 @@ const debug = debugFn('cli:interceptor')
 
 let warn: (message?: any, ...optionalParams: any[]) => void
 
-const getConfig = (options: Hooks['prerun']) => {
+const getConfig = (options: Interfaces.Hooks['prerun']['options']) => {
   const outputDir = env.getString('INTERCEPTOR_OUTPUT_DIR', process.cwd())
   const fixtureName = env.getString('INTERCEPTOR_FIXTURE_NAME', options.Command.id)
   const fixtureDir = path.join(outputDir, 'nockFixtures', fixtureName)

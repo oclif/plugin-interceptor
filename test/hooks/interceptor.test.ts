@@ -1,6 +1,6 @@
 import {expect} from 'chai'
 import * as sinon from 'sinon'
-import {Hook, IConfig, Command} from '@oclif/config'
+import {Hook, Interfaces} from '@oclif/core'
 import {stubInterface, stubObject} from '@salesforce/ts-sinon'
 import {env} from '@salesforce/kit'
 import hook from '../../src/hooks/interceptor'
@@ -20,14 +20,15 @@ describe('interceptor hook', () => {
   let writeJSONStub: sinon.SinonStub
 
   const context = stubInterface<Hook.Context>(sandbox)
-  const config = stubInterface<IConfig>(sandbox)
+  const config = stubInterface<Interfaces.Config>(sandbox)
   const cmdId = 'interceptor:test'
-  const cmd = stubObject<Command>(sandbox, {
+  const cmd = stubObject<Interfaces.Command>(sandbox, {
     id: cmdId,
     hidden: false,
     aliases: [],
     flags: {},
     args: [],
+    strict: false,
   })
   const testScope = 'https://my.test.domain:443'
   const testPath = '//services/data'

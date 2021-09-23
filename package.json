@@ -5,15 +5,13 @@
   "author": "Steve Hetzel @shetzel",
   "bugs": "https://github.com/oclif/plugin-interceptor/issues",
   "dependencies": {
-    "@oclif/command": "^1",
-    "@oclif/config": "^1",
+    "@oclif/core": "^0.5.39",
     "@salesforce/kit": "1.5.8",
     "nock": "13.0.3",
     "sinon": "10.0.0",
     "tslib": "^2"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1",
     "@oclif/plugin-help": "^3",
     "@oclif/test": "^1",
     "@salesforce/dev-config": "^2.1.0",
@@ -31,6 +29,7 @@
     "globby": "^11",
     "mocha": "^8",
     "nyc": "^15",
+    "oclif": "^2.0.0-main.5",
     "ts-node": "^8.10.2",
     "typescript": "^4.4.3"
   },
@@ -60,9 +59,9 @@
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "yarn lint",
-    "prepack": "yarn build && oclif-dev manifest && oclif-dev readme",
+    "prepack": "yarn build && oclif manifest && oclif readme",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif-dev readme && git add README.md",
+    "version": "oclif readme && git add README.md",
     "lint": "eslint . --ext .ts --config .eslintrc",
     "build": "rm -rf lib && tsc",
     "pretest": "yarn build --noEmit && tsc -p test --noEmit"
