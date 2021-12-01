@@ -7,7 +7,7 @@
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
-    "@salesforce/kit": "1.5.8",
+    "@salesforce/kit": "1.5.18",
     "nock": "13.0.3",
     "sinon": "10.0.0",
     "tslib": "^2"
