@@ -6,7 +6,7 @@ Plugin that defines a pre-run hook that can record and mock http/s requests and 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/@oclif/plugin-interceptor.svg)](https://npmjs.org/package/@oclif/plugin-interceptor)
 [![Downloads/week](https://img.shields.io/npm/dw/@oclif/plugin-interceptor.svg)](https://npmjs.org/package/@oclif/plugin-interceptor)
-[![License](https://img.shields.io/npm/l/@oclif/plugin-interceptor.svg)](https://github.com/oclif/plugin-interceptor/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/@oclif/plugin-interceptor.svg)](https://github.com/oclif/plugin-interceptor/blob/main/package.json)
 
 # Usage
 This plugin does nothing until enabled with the `INTERCEPTOR_MODE` environment variable.
