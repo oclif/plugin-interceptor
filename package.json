@@ -5,7 +5,7 @@
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/plugin-interceptor/issues",
   "dependencies": {
-    "@oclif/core": "^0.5.39",
+    "@oclif/core": "^0.6.0",
     "@salesforce/kit": "1.5.8",
     "nock": "13.0.3",
     "sinon": "10.0.0",
