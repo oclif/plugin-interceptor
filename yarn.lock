@@ -331,12 +331,12 @@
   dependencies:
     "@oclif/core" "^1.0.10"
 
-"@oclif/plugin-help@^5.1.10":
-  version "5.1.10"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-5.1.10.tgz#465aa0397da723c39536780f6f7c1ad9cbd1671e"
-  integrity sha512-ngurn/3kQVCw1Df5TJEURjxU+w7iA9z3Pskw8dJorfnd0Xibe/qlPg+VYV3hB7EhTbV82EVfZ5DhQYD5YvoxeA==
+"@oclif/plugin-help@^5.1.14":
+  version "5.1.14"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-5.1.14.tgz#641e6f2c7effb4a21573d50c649af662a919bcf9"
+  integrity sha512-jhpD0a2bEp3YW93sQcUM3b15DH+svQqC9pMXNp1m1VyAPoskdaELgt5P/5SjmNuFwqws8scxpbYKlr2/lvvkGQ==
   dependencies:
-    "@oclif/core" "^1.0.10"
+    "@oclif/core" "^1.16.4"
 
 "@oclif/plugin-not-found@^2.2.2":
   version "2.2.3"
