@@ -12,7 +12,7 @@
     "tslib": "^2"
   },
   "devDependencies": {
-    "@oclif/plugin-help": "^5.1.16",
+    "@oclif/plugin-help": "^5.1.17",
     "@oclif/test": "^2.2.6",
     "@salesforce/dev-config": "^2.1.2",
     "@salesforce/ts-sinon": "1.4.0",
