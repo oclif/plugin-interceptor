@@ -15,7 +15,7 @@
     "@oclif/plugin-help": "^5.1.23",
     "@oclif/test": "^2.2.20",
     "@salesforce/dev-config": "^2.1.2",
-    "@salesforce/ts-sinon": "1.4.3",
+    "@salesforce/ts-sinon": "1.4.4",
     "@types/chai": "^4",
     "@types/debug": "0.0.30",
     "@types/fs-extra": "9.0.11",
