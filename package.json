@@ -1,7 +1,7 @@
 {
   "name": "@oclif/plugin-interceptor",
   "description": "plugin that defines a pre-run hook that can record and mock http/s requests and responses during command execution",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/plugin-interceptor/issues",
   "dependencies": {
