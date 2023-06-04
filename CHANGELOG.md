@@ -1,3 +1,12 @@
+## [2.0.13](https://github.com/oclif/plugin-interceptor/compare/2.0.12...2.0.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* **deps:** bump tslib from 2.5.2 to 2.5.3 ([cd3123a](https://github.com/oclif/plugin-interceptor/commit/cd3123abe4d375612b86bc1ba8ca453062c3b563))
+
+
+
 ## [2.0.12](https://github.com/oclif/plugin-interceptor/compare/2.0.11...2.0.12) (2023-05-21)
 
 
