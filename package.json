@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@oclif/plugin-help": "^5.2.11",
-    "@oclif/test": "^2.3.28",
+    "@oclif/test": "^2.3.31",
     "@salesforce/dev-config": "^2.1.2",
     "@salesforce/ts-sinon": "1.4.11",
     "@types/chai": "^4",
