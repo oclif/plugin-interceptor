@@ -334,7 +334,7 @@
     widest-line "^3.1.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^2.11.1", "@oclif/core@^2.9.3":
+"@oclif/core@^2.11.1":
   version "2.11.1"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.11.1.tgz#69c3cfd3d9b2df9fe94c6d16a3c5da59706f078a"
   integrity sha512-/DHDtm/PoSNvWdJtTv1GUYnrCrlTsEQd1CsXKNfMSylpkeOjbDIbt1w4NYZ50BfAWxpCunf7RmbwxFBpDa5lHQ==
@@ -433,13 +433,13 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-3.0.4.tgz#663db0ecaf23f3184e7f01886ed578060e4a7f1c"
   integrity sha512-IMsTN1dXEXaOSre27j/ywGbBjrzx0FNd1XmuhCWCB9NTPrhWI1Ifbz+YLSEcstfQfocYsrbrIessxXb2oon4lA==
 
-"@oclif/test@^2.3.31":
-  version "2.3.31"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.3.31.tgz#227fdc50d0348b2263b59f501b1fd06ef50b8e7c"
-  integrity sha512-dTWCni+Zv9aSuzyamS95+GJaIub6EAI+CT+pA1MP10RZF54mF7CKaas7t8dvNvDp1Y194hi64cqe+cNwZlR5ng==
+"@oclif/test@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.4.1.tgz#08202bed31dd9343b4e1f0f1f63b7e073df466ec"
+  integrity sha512-SO4a3xVZ5Gr2dB0QlhwkD15MKRdwVp8LgJdSGBk0eZYsNmV+LamVeNR1OWJi+ZwN7w+WPmKja2r3OHsAXTaGsQ==
   dependencies:
-    "@oclif/core" "^2.9.3"
-    fancy-test "^2.0.29"
+    "@oclif/core" "^2.11.1"
+    fancy-test "^2.0.31"
 
 "@salesforce/dev-config@^2.1.2":
   version "2.1.2"
@@ -2209,10 +2209,10 @@ extract-stack@^2.0.0:
   resolved "https://registry.yarnpkg.com/extract-stack/-/extract-stack-2.0.0.tgz#11367bc865bfcd9bc0db3123e5edb57786f11f9b"
   integrity sha512-AEo4zm+TenK7zQorGK1f9mJ8L14hnTDi2ZQPR+Mub1NX8zimka1mXpV5LpH8x9HoUmFSHZCfLHqWvp0Y4FxxzQ==
 
-fancy-test@^2.0.29:
-  version "2.0.31"
-  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-2.0.31.tgz#2031920a6608c633ed93eb1629513fb2a2026bc7"
-  integrity sha512-Ok4L7GuoVdOBKtwlHdSnBYDBSFeWazcr6+/lhcC0LWS+sJYOXgbyCPP54fTt2TM1T8QWUm4ULHKQGOHKS61pfg==
+fancy-test@^2.0.31:
+  version "2.0.32"
+  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-2.0.32.tgz#3cbf7ea8a83f9912b02d9ee0782517cca71834f9"
+  integrity sha512-yN40FulpMlEDVp/3YbSxVzkdUR/u0ZAk2Wu30vVvv79Dni0LoSz90ZXtLsp6e813ED0SHkaW/zfgDEp8YqF9Lw==
   dependencies:
     "@types/chai" "*"
     "@types/lodash" "*"
