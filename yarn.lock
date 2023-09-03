@@ -433,13 +433,13 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-3.0.4.tgz#663db0ecaf23f3184e7f01886ed578060e4a7f1c"
   integrity sha512-IMsTN1dXEXaOSre27j/ywGbBjrzx0FNd1XmuhCWCB9NTPrhWI1Ifbz+YLSEcstfQfocYsrbrIessxXb2oon4lA==
 
-"@oclif/test@^2.4.7":
-  version "2.4.7"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.4.7.tgz#4372270157aa6598c0d1b61349b2eff4e2003193"
-  integrity sha512-r18sKGNUm/VGQ8BkSF9Kn7QeMGjGMDUrLxTDPzL5ERaBF5YSi+O9CT3mKhcFdrMwGnCqPVvlAdX4U/6gtYPy1A==
+"@oclif/test@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.5.1.tgz#75531da3beb0ad80f17544cba6f3e61bacacecb0"
+  integrity sha512-lqkhze4ijrBg1MmnVIbxk9rvsD8NiR3ISJ2SiM43tYTCVY6eY+up9p/IjD8i9ZoT/7khnfA/Jxhq0OYOjRYvuw==
   dependencies:
     "@oclif/core" "^2.11.10"
-    fancy-test "^2.0.34"
+    fancy-test "^2.0.35"
 
 "@salesforce/dev-config@^2.1.2":
   version "2.1.2"
@@ -2209,10 +2209,10 @@ extract-stack@^2.0.0:
   resolved "https://registry.yarnpkg.com/extract-stack/-/extract-stack-2.0.0.tgz#11367bc865bfcd9bc0db3123e5edb57786f11f9b"
   integrity sha512-AEo4zm+TenK7zQorGK1f9mJ8L14hnTDi2ZQPR+Mub1NX8zimka1mXpV5LpH8x9HoUmFSHZCfLHqWvp0Y4FxxzQ==
 
-fancy-test@^2.0.34:
-  version "2.0.36"
-  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-2.0.36.tgz#6508bc06cbc15a59518f0defd91ec0591cc7c0e3"
-  integrity sha512-Mg526rvtOG5wjRegmgYISY9Ydh/4rm7cthNr0TTUMywXqR0DzovU3oKLlfT0lh+fDSMeHm9HNouJEEvu/Iw3Ww==
+fancy-test@^2.0.35:
+  version "2.0.37"
+  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-2.0.37.tgz#7cfd18fcaaa76cd2d72636dda00f6f3fae053187"
+  integrity sha512-lCicyu0gzcWNR0x5LyRNGjBNJfrl+C9rKOaC6nJcyPUXvMhZkMVwsCIDuMPaEET0sD8vSliyAipnQ7RZUgXujw==
   dependencies:
     "@types/chai" "*"
     "@types/lodash" "*"
