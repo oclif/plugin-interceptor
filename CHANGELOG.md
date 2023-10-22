@@ -1,3 +1,12 @@
+## [2.0.20](https://github.com/oclif/plugin-interceptor/compare/2.0.19...2.0.20) (2023-10-22)
+
+
+### Bug Fixes
+
+* **deps:** bump nock from 13.3.4 to 13.3.6 ([d5cfe5e](https://github.com/oclif/plugin-interceptor/commit/d5cfe5e59aa5501ac1c8f718a96fde6b16ea132a))
+
+
+
 ## [2.0.19](https://github.com/oclif/plugin-interceptor/compare/2.0.18...2.0.19) (2023-10-15)
 
 
